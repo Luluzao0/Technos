@@ -25,9 +25,10 @@ def add_userdata(name, email, number, password):
 
 con = mysql.connector.connect(
     host="aws.connect.psdb.cloud",
-    user="aj2tqneb5cn8nt35h5nh",
-    password="pscale_pw_4ciqYY2q7dnxMp8nrVBObEC3r0zwBbnPbEVe7IJWuCk",
-    database="technos"
+    user="k8x2uhcrevampf35bao8",
+    password="pscale_pw_cvHMJRkzpNijea4CojGWe3CZ8cWOHKrX9wO0P41ufCO",
+    database="technos",
+
 )
 
 cursor = con.cursor()
